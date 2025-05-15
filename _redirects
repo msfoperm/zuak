@@ -1,2 +1,14 @@
-/old-about  /about.html 301
-/posts/*    /blog/:splat 302
+/company       /about.html           301
+/uslugi        /services.html        301
+/kontakty      /contacts.html        301
+
+/zuak/ООО\ ЗУАК.doc                 /zuak/ООО_ЗУАК_2022.doc     301
+/zuak/ООО\ ЗУАК\ 2022.doc           /zuak/ООО_ЗУАК_2023.doc     301
+/zuak/ООО\ ЗУАК\ 2023.doc           /zuak/ООО_ЗУАК_2024.doc     301
+
+/documents/2022     /zuak/ООО_ЗУАК_2022.doc     200
+/documents/2023     /zuak/ООО_ЗУАК_2023.doc     200
+/documents/2024     /zuak/ООО_ЗУАК_2024.doc     200
+/documents/current  /zuak/ООО_ЗУАК_2024.doc     200
+
+/*                /index.html           200
